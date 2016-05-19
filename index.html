@@ -22,12 +22,12 @@
   canvas.height = document.getElementById('bgCont').clientHeight;
 
   var oImg = new Image();
-  oImg.src = 'image.jpg';
+  oImg.src = 'http://i2.pixiv.net/img-original/img/2016/05/18/20/54/35/56945157_p0.png';
   oImg.onload = function(){
     //ctx.drawImage(oImg, 0, 0, canvas.width, canvas.height);
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     setTimeout(function(){
-      document.getElementById('bgCont').style.backgroundImage = "url('image.jpg')";
+      document.getElementById('bgCont').style.backgroundImage = "url('http://i2.pixiv.net/img-original/img/2016/05/18/20/54/35/56945157_p0.png')";
     }, 200);
     tapClip()
   };
